@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif; /* Elegant font choice */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light background */
+    color: #333; /* Darker text for contrast */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #5d4037; /* Rich brown tone */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #795548; /* Slightly lighter brown */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+/* Main Content Section Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #5d4037;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+/* Product Display (Example) */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
